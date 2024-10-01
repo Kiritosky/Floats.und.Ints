@@ -14,7 +14,7 @@ Dieses Repository enthält ein Python-Skript, das ein Menü bietet, um vier vers
 1. Führe das Skript in einer Python 3.x-Umgebung aus.
 2. Wähle ein Programm aus dem Menü, indem du die entsprechende Zahl eingibst.
 3. Gib die angeforderten Werte ein, um die Ergebnisse zu erhalten.
-4. Wähle `5`, um das Programm zu beenden.
+4. Wähle `Stop`, um das Programm zu beenden.
 
 ## Beispiel
 
@@ -25,7 +25,7 @@ Wähle ein Programm:
 2. Programm 2
 3. Programm 3
 4. Programm 4
-5. Beenden
+Stop. Beenden
 Deine Wahl: 1
 Gebe mir eine Kommazahl: 3.14
 Gebe mir Eine Zahl: 10
