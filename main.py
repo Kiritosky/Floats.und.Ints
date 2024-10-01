@@ -5,6 +5,7 @@ class Programm1:
         float_numberstring = str(float_number)
         integerstring = str(integer)
         print(f"Die Ganzzahl ist {integerstring} und die Kommazahl ist {float_numberstring}")
+        print("=================================================")
 
 class Programm2:
     def run(self):
@@ -13,6 +14,7 @@ class Programm2:
         zahl1float = float(zahl1)
         zahl2float = float(zahl2)
         print(f"Die Summe der beiden Zahlen ist {zahl1float + zahl2float}")
+        print("=================================================")
 
 class Programm3:
     def run(self):
@@ -20,11 +22,13 @@ class Programm3:
         float_number_int = int(float_number)
         print(f"Die Kommazahl ist {float_number}\n"
               f"Die umgewandelte Ganzzahl ist {float_number_int}")
+        print("=================================================")
 
 class Programm4:
     def run(self):
         float_number = float(input("Gebe mir eine Kommazahl mit 4 Nachkommastellen: "))
         print(f"Die Zahl ohne die letzen 2 Nachkommastellen ist {round(float_number, 2)}")
+        print("=================================================")
 
 def main():
     while True:
@@ -33,7 +37,7 @@ def main():
         print("2. Programm 2")
         print("3. Programm 3")
         print("4. Programm 4")
-        print("5. Beenden")
+        print("Stop. Beenden")
 
         choice = input("Deine Wahl: ")
 
@@ -49,7 +53,7 @@ def main():
         elif choice == '4':
             programm = Programm4()
             programm.run()
-        elif choice == '5':
+        elif choice == 'Stop':
             print("Programm beendet.")
             break
         else:
